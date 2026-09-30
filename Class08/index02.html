@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Content Class08 - HTML</title>
+
+<style>
+
+    /* Charging style of link */
+
+    /* a:link {
+        color: orangered;
+        text-decoration: none;
+    }
+
+a:visited{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+a:active{
+    color: mediumvioletred;
+    border: 2px solid mediumvioletred;
+} */
+
+/* Transformando link in button with styles */
+
+a:link, visited{
+    background-color: crimson;
+    color: bisque;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+    border: 4px solid #000;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:hover, a:active{
+    background-color: bisque;
+    color: #000;
+    border: 4px solid crimson;
+    transition: .3s;
+}
+
+a:active {
+    box-shadow: inset 0 0 2px 0 #000000;
+}
+
+</style>
+
+    </head>
+    <body>
+        <h1>Charging styles of link</h1>
+
+        <a href="###">This is a link</a>
+
+        <hr>
+
+        <h3>Definindo style of button on a link</h3>
+
+        <a href="###">Link</a>
+
+    </body>
+</html>
