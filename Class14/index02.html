@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Content Class14 - HTML</title>
+    </head>
+    <body>
+
+        <h1>JavaScript on HTML</h1>
+
+        <button onclick="document.getElementById('ex1').innerHTML = Date();"> To add Hour and Date
+        </button>
+
+        <p id="ex1"></p>
+
+        <hr>
+
+        <h3>Inserting content in elements with the JavaScript</h3>
+
+        <p id="ex2"></p>
+
+        <hr>
+
+        <h3>Altering style of elements with the JavaScript</h3>
+
+        <p id="ex3">Only collective pain fosters unity!</p>
+
+        <button onclick="toaddStyle()">Toaltering Style</button>
+
+        <script>
+
+            //Insering content with the JavaScript
+
+            document.getElementById("ex2").innerHTML = "Hello, SP15"
+
+            //Altering style of element with the JavaScript
+            function toaddStyle() {
+                document.getElementById("ex3").style.color = "darkred";
+                document.getElementById("ex3").style.backgroundColor = "black";
+                document.getElementById("ex3").style.border = "4px solid darkred";
+                document.getElementById("ex3").style.padding = "10px";
+                document.getElementById("ex3").style.fontFamily = "sans-serif";
+            }
+
+        </script>
+
+<p id="ex1"></p>
+
+    </body>
+</html>
